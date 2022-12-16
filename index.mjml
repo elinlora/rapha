@@ -42,7 +42,11 @@
         border: 0;
       }
       /* ======> Mobile <====== */
-      @media only screen and (max-width: 599.8px) {}
+      @media only screen and (max-width: 599.8px) {
+        .prod-sec-two-pad > table > tbody > tr > td {
+          padding-top: 0 !important;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#f6f6f6">
@@ -62,7 +66,7 @@
       <mj-text font-size="18px" padding-top="20px" line-height="1.2">
         Developed with the riders of EF Education-EasyPost and EF Education-TIBCO-SVB and made with innovative performance fabrics, each jersey in our Pro Team range is tailored to different race conditions. From crosswinds and cobbles to high-altitude cols, find your next race jersey and combine it with corresponding bib shorts in one of our seasonal looks.
       </mj-text>
-      <mj-button align="left" letter-spacing="2.1px" padding-top="30px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+      <mj-button href="#" align="left" letter-spacing="2.1px" padding-top="30px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
         BUY NOW
       </mj-button>
     </mj-column>
@@ -71,30 +75,58 @@
   <!-- ======> Product Section 1 <====== -->
   <mj-section padding-top="45px" background-color="#ffffff">
     <mj-column padding="20px">
-      <mj-image src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
+      <mj-image href="#" src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
       <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
         Pro Team Crit Jersey
       </mj-text>
       <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
         Made specifically for crit racing with a dual-fabric design that positions aero panels over the shoulders and woven fabrics around the torso for a locked-in fit.
       </mj-text>
-      <mj-button align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+      <mj-button href="#" align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
         BUY NOW
       </mj-button>
     </mj-column>
     <mj-column padding="20px">
-      <mj-image src="https://i.ibb.co/q0dcPhp/pro-team-aero-jersey.jpg" alt="Pro Team Aero Jersey" />
+      <mj-image href="#" src="https://i.ibb.co/q0dcPhp/pro-team-aero-jersey.jpg" alt="Pro Team Aero Jersey" />
       <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
         Men's Pro Team Aero Jersey
       </mj-text>
       <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
         As worn by EF at the Tour, our tried and tested Aero Jersey combines wind-tunnel-tested fabrics to give you an advantage in race conditions.
       </mj-text>
-      <mj-button align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+      <mj-button href="#" align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
         BUY NOW
       </mj-button>
     </mj-column>
   </mj-section>
   <!-- ======> / Product Section 1 <====== -->
+  <!-- ======> Product Section 2 <====== -->
+  <mj-section css-class="prod-sec-two-pad" padding-top="45px" background-color="#ffffff">
+    <mj-column padding="20px">
+      <mj-image href="#" src="https://i.ibb.co/196PbqF/pro-team-flyyweight-jersey.jpg" alt="Men's Pro Team Flightweight Jersey" />
+      <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
+        Men's Pro Team Flyweight Jersey
+      </mj-text>
+      <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
+        Made for hot days in the mountains, the lightest jersey in the line up pairs superlight, air permeable fabric on the front with a sun-protective back panel.
+      </mj-text>
+      <mj-button href="#" align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+        BUY NOW
+      </mj-button>
+    </mj-column>
+    <mj-column padding="20px">
+      <mj-image href="#" src="https://i.ibb.co/SsNyb79/pro-team-training-jersey.jpg" alt="Men's Pro Team Training Jersy" />
+      <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
+        Men's Pro Team Training Jersey
+      </mj-text>
+      <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
+        Built for your base miles, the most robust jersey in the race features oversized grippers for stability and lightweight fabrics for consistent comfort on long rides.
+      </mj-text>
+      <mj-button href="#" align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+        BUY NOW
+      </mj-button>
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Product Section 2 <====== -->
   </mj-body>
 </mjml>
