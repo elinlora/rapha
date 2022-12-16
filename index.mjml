@@ -69,12 +69,30 @@
   </mj-section>
   <!-- ======> / Hero Copy & CTA <====== -->
   <!-- ======> Product Section 1 <====== -->
-  <mj-section background-color="#ffffff">
-    <mj-column width="260px" padding="10px">
+  <mj-section padding-top="45px" background-color="#ffffff">
+    <mj-column padding="20px">
       <mj-image src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
+      <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
+        Pro Team Crit Jersey
+      </mj-text>
+      <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
+        Made specifically for crit racing with a dual-fabric design that positions aero panels over the shoulders and woven fabrics around the torso for a locked-in fit.
+      </mj-text>
+      <mj-button align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+        BUY NOW
+      </mj-button>
     </mj-column>
-    <mj-column width="260px" padding="10px">
+    <mj-column padding="20px">
       <mj-image src="https://i.ibb.co/q0dcPhp/pro-team-aero-jersey.jpg" alt="Pro Team Aero Jersey" />
+      <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
+        Men's Pro Team Aero Jersey
+      </mj-text>
+      <mj-text padding-top="15px" font-size="15px" line-height="18px" height="90px">
+        As worn by EF at the Tour, our tried and tested Aero Jersey combines wind-tunnel-tested fabrics to give you an advantage in race conditions.
+      </mj-text>
+      <mj-button align="left" letter-spacing="2.1px" padding-top="15px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+        BUY NOW
+      </mj-button>
     </mj-column>
   </mj-section>
   <!-- ======> / Product Section 1 <====== -->
