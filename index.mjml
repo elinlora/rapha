@@ -44,7 +44,13 @@
       @media only screen and (max-width: 599.8px) {}
     </mj-style>
   </mj-head>
-  <mj-body>
-
+  <mj-body background-color="#f6f6f6">
+  <!-- ======> Hero <====== -->
+  <mj-section background-color="#ffffff">
+    <mj-column>
+      <mj-image href="#" src="https://i.ibb.co/JtpcnM7/rapha-hero.jpg" alt="Rapha" />
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Hero <====== -->
   </mj-body>
 </mjml>
