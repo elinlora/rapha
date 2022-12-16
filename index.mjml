@@ -46,6 +46,9 @@
         .prod-sec-two-pad > table > tbody > tr > td {
           padding-top: 0 !important;
         }
+        .prod-img > table > tbody > tr > td > a > img {
+          width: 100% !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -75,7 +78,7 @@
   <!-- ======> Product Section 1 <====== -->
   <mj-section padding-top="45px" background-color="#ffffff">
     <mj-column padding="20px">
-      <mj-image href="#" src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
+      <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
       <mj-text padding-top="30px" font-size="15px" font-weight="500" text-transform="uppercase">
         Pro Team Crit Jersey
       </mj-text>
@@ -128,5 +131,32 @@
     </mj-column>
   </mj-section>
   <!-- ======> / Product Section 2 <====== -->
+  <!-- ======> Horizontal Rule <====== -->
+  <mj-section background-color="#ffffff">
+    <mj-column>
+      <mj-divider border-width="1px" border-style="solid" border-color="#d3d3d3" />
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Horizontal Rule <====== -->
+  <!-- ======> Shipping <====== -->
+  <mj-section background-color="#ffffff">
+    <mj-column padding="18px 45px">
+      <mj-text font-size="18px" text-transform="uppercase">
+        free standard shipping on orders over $75
+      </mj-text>
+    </mj-column>
+    <mj-column padding="18px 45px">
+      <mj-text font-size="18px" text-transform="uppercase">
+        90 days free returns
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Shipping <====== -->
+  <mj-section background-color="#ffffff">
+    <mj-column>
+      <mj-divider border-width="1px" border-style="solid" border-color="#d3d3d3" />
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Horizontal Rule <====== -->
   </mj-body>
 </mjml>
