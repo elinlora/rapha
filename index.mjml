@@ -11,11 +11,12 @@
 
       <mj-class name="" />
     
-      <mj-text padding="0" font-family="" />
+      <mj-text padding="0" font-family="Helvetica" color="#333333" />
       <mj-wrapper padding="0" />
       <mj-section padding="0" />
       <mj-column padding="0" />
       <mj-image padding="0" />
+      <mj-button padding="0" />
 
     </mj-attributes>
 
@@ -52,5 +53,30 @@
     </mj-column>
   </mj-section>
   <!-- ======> / Hero <====== -->
+  <!-- ======> Hero Copy & CTA <====== -->
+  <mj-section padding-top="20px" background-color="#ffffff">
+    <mj-column padding="15px 20px 0">
+      <mj-text font-size="28px" text-transform="uppercase">
+        Every Second Counts
+      </mj-text>
+      <mj-text font-size="18px" padding-top="20px" line-height="1.2">
+        Developed with the riders of EF Education-EasyPost and EF Education-TIBCO-SVB and made with innovative performance fabrics, each jersey in our Pro Team range is tailored to different race conditions. From crosswinds and cobbles to high-altitude cols, find your next race jersey and combine it with corresponding bib shorts in one of our seasonal looks.
+      </mj-text>
+      <mj-button align="left" letter-spacing="2.1px" padding-top="30px" background-color="#000000" border-radius="30px" inner-padding="20px 30px">
+        BUY NOW
+      </mj-button>
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Hero Copy & CTA <====== -->
+  <!-- ======> Product Section 1 <====== -->
+  <mj-section background-color="#ffffff">
+    <mj-column width="260px" padding="10px">
+      <mj-image src="https://i.ibb.co/LQM3CJb/pro-team-crit-jersey.jpg" alt="Pro Team Crit Jersey" />
+    </mj-column>
+    <mj-column width="260px" padding="10px">
+      <mj-image src="https://i.ibb.co/q0dcPhp/pro-team-aero-jersey.jpg" alt="Pro Team Aero Jersey" />
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Product Section 1 <====== -->
   </mj-body>
 </mjml>
