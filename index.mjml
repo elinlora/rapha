@@ -158,5 +158,22 @@
     </mj-column>
   </mj-section>
   <!-- ======> / Horizontal Rule <====== -->
+  <!-- ======> Footer <====== -->
+  <mj-section background-color="#ffffff" padding-top="30px">
+    <mj-column>
+      <mj-text align="center">
+        <a href="#" style="padding: 0 30px;">
+          <img src="https://i.ibb.co/zb0HqDL/facebook.png" alt="Facebook" style="width: 45px;" />
+        </a>
+        <a href="#" style="padding: 0 30px;">
+          <img src="https://i.ibb.co/wdZv8dY/youtube.png" alt="YouTube" style="width: 45px;" />
+        </a>
+        <a href="#" style="padding: 0 30px;">
+          <img src="https://i.ibb.co/2yYDKPX/instagram.png" alt="Instagram" style="width: 45px;" />
+        </a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <!-- ======> / Footer <====== -->
   </mj-body>
 </mjml>
