@@ -172,6 +172,36 @@
           <img src="https://i.ibb.co/2yYDKPX/instagram.png" alt="Instagram" style="width: 45px;" />
         </a>
       </mj-text>
+      <mj-text align="center">
+        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+          <tbody>
+            <tr>
+              <td align="center">
+                <a href="#">View in web browser</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><a href="#">Click here</a> to update your language and communications preferences or unsubscribe.</p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <p>Telephone: +44 (0) 207 485 5000 | Email: enquiries@rapha.cc</p>
+                <p>Rapha Racing Ltd is registered in England & Wales. Registered number: 04849594.</p>
+                <p>Registered office: Rapha Works, 4 Elthorne Road, London, N19 4AG, United Kingdom.</p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">Cookies</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </mj-text>
     </mj-column>
   </mj-section>
   <!-- ======> / Footer <====== -->
