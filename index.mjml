@@ -159,7 +159,7 @@
   </mj-section>
   <!-- ======> / Horizontal Rule <====== -->
   <!-- ======> Footer <====== -->
-  <mj-section background-color="#ffffff" padding-top="30px">
+  <mj-section background-color="#ffffff" padding="30px 0 45px">
     <mj-column>
       <mj-text align="center">
         <a href="#" style="padding: 0 30px;">
